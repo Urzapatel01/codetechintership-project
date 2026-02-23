@@ -1,0 +1,84 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color:#022d41;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .quiz-container {
+            background: #bce0f6;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 1000%;
+            height: 80%;
+            max-width: 1000px;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .question {
+            font-size:1.5em;
+            margin-bottom: 30px;
+            color: black;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .option{
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid #3f6475;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s, color 0.3s;   
+        }
+
+        .option:hover {
+            font-size: 1.5em;
+            background-color:#bce0f6;
+            
+        }
+
+        .timer {
+            font-size: 1.2em;
+            margin-bottom: 50px;
+            color:rgb(176, 8, 8);
+        }
+
+        .result {
+            font-size: 1.6em;
+            font-weight: bold;
+            color: #113f1f;
+            display: none;
+        }
+
+        .restart-btn {
+            background-color: #315971;
+            color: #fff;
+            border: none;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top:300px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+        }
